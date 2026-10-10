@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" rx="44" fill="#ffffff" />
+  
+  <g transform="translate(100, 100)">
+    <!-- Magnifying Glass Handle -->
+    <line x1="-16" y1="16" x2="-44" y2="44" stroke="#3b3838" stroke-width="13" stroke-linecap="round" />
+    <line x1="-20" y1="20" x2="-26" y2="26" stroke="#4a4646" stroke-width="14" stroke-linecap="round" />
+
+    <!-- Magnifying Glass Lens Frame with Top Opening -->
+    <path 
+      d="M -11 -31 A 33 33 0 1 0 11 -31" 
+      fill="none" 
+      stroke="#3b3838" 
+      stroke-width="11" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Cyan Blue Tie Knot (Top Collar) -->
+    <polygon 
+      points="-7,-40  7,-40  5.5,-28  -5.5,-28" 
+      fill="#00a4e4" 
+    />
+
+    <!-- Cyan Blue Tie Blade (Body + Pointed Tip) -->
+    <polygon 
+      points="-5.5,-27  5.5,-27  8,7  0,18  -8,7" 
+      fill="#00a4e4" 
+    />
+  </g>
+</svg>
